@@ -1,1 +1,19 @@
+:root {
+  --primary-green: #1AA44A;
+  --white: #ffffff;
+  --graphite: #2E2E2E; /* or a shade like #3A3A3A depending on the mood you want */
+}
+body {
+  background-color: var(--white);
+  color: var(--graphite);
+  font-family: 'Open Sans', sans-serif;
+}
 
+.btn {
+  background-color: var(--primary-green);
+  color: var(--white);
+}
+
+.btn:hover {
+  background-color: #15893F; /* a slightly darker green for hover effect */
+}
