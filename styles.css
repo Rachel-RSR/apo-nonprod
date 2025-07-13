@@ -14,9 +14,13 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: var(--graphite);
@@ -33,11 +37,19 @@ body {
 
 /* === Header === */
 .site-header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: var(--graphite);
   padding: 20px 0;
+  z-index: 10;
 }
 
 .navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,6 +85,8 @@ body {
 .slideshow {
   position: relative;
   width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
   aspect-ratio: 16/9;
   overflow: hidden;
 }
@@ -102,12 +116,12 @@ body {
 .slide-text {
   position: absolute;
   bottom: 40px;
-  left: 40px;
+  left: 5%;
+  right: 5%;
   background: rgba(0, 0, 0, 0.5);
   color: var(--white);
   padding: 20px;
   border-radius: 8px;
-  max-width: 400px;
   transition: all 0.3s ease;
 }
 
@@ -129,6 +143,7 @@ body {
 
 /* === Footer === */
 .site-footer {
+  width: 100%;
   background-color: var(--graphite);
   color: var(--white);
   text-align: center;
@@ -194,10 +209,8 @@ body {
 
   .slide-text {
     bottom: 20px;
-    left: 20px;
     padding: 15px;
     font-size: 0.9rem;
-    max-width: 90%;
   }
 
   .card {
