@@ -1,11 +1,3 @@
-let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
-
-setInterval(() => {
-  slides[currentSlide].classList.remove('active');
-  currentSlide = (currentSlide + 1) % slides.length;
-  slides[currentSlide].classList.add('active');
-}, 5000);
 document.addEventListener('DOMContentLoaded', () => {
   let currentSlide = 0;
   const slides = document.querySelectorAll('.slide');
@@ -16,4 +8,3 @@ document.addEventListener('DOMContentLoaded', () => {
     slides[currentSlide].classList.add('active');
   }, 5000);
 });
-
