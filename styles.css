@@ -1,62 +1,45 @@
-:root {
-  --primary-green: #1AA44A;
-  --white: #ffffff;
-  --graphite: #2E2E2E; /* or a shade like #3A3A3A depending on the mood you want */
-}
-body {
-  background-color: var(--white);
-  color: var(--graphite);
-  font-family: 'Open Sans', sans-serif;
+.logo img {
+  height: 50px;
 }
 
-.btn {
-  background-color: var(--primary-green);
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+.slide {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
   color: var(--white);
-}
-
-.btn:hover {
-  background-color: #15893F; /* a slightly darker green for hover effect */
-}
-.services {
-  text-align: center;
-  padding: 60px 20px;
-  background-color: var(--light-graphite, #f5f5f5);
-}
-
-.services h1 {
-  font-size: 2rem;
-  margin-bottom: 40px;
-  color: var(--graphite);
-}
-
-.service-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-}
-
-.card {
-  background-color: var(--white);
-  border-left: 6px solid var(--primary-green);
-  border-radius: 8px;
+  background: rgba(0,0,0,0.5);
   padding: 20px;
-  width: 280px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  border-radius: 8px;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card h2 {
-  margin-top: 0;
-  color: var(--graphite);
-  font-size: 1.4rem;
-}
-
-.card p {
-  color: #444;
-  font-size: 1rem;
+.site-footer {
+  background-color: var(--graphite);
+  color: var(--white);
+  text-align: center;
+  padding: 20px;
 }
