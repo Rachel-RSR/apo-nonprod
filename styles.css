@@ -72,7 +72,7 @@ body {
 /* === Slideshow === */
 .slideshow {
   position: relative;
-  width: 100%;
+  width: 100vw;
   aspect-ratio: 16/9;
   overflow: hidden;
 }
