@@ -41,7 +41,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--graphite);
+  background-color: var(--white);
   padding: 20px 0;
   z-index: 10;
 }
@@ -72,7 +72,7 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--graphite);
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -144,8 +144,8 @@ body {
 /* === Footer === */
 .site-footer {
   width: 100%;
-  background-color: var(--graphite);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--graphite);
   text-align: center;
   padding: 20px 0;
 }
