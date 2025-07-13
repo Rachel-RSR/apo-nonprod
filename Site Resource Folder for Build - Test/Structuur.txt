@@ -1,0 +1,10 @@
+Structuur en RSS
+-Home.html
+-Diensten.html
+-Contact.html
+-Resources
+	-Logo 
+	-Images 
+-style.css
+	fonts - Open Sans
+	kleuren - #1AA44A (Groen) 
