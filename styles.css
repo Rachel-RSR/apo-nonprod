@@ -115,13 +115,14 @@ body {
 
 .slide-text {
   position: absolute;
-  bottom: 40px;
-  left: 5%;
-  right: 5%;
-  background: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
   color: var(--white);
-  padding: 20px;
+  padding: 0;
   border-radius: 8px;
+  max-width: 90%;
   transition: all 0.3s ease;
 }
 
