@@ -57,7 +57,8 @@ body {
 /* === Slideshow === */
 .slideshow {
   position: relative;
-  height: 400px;
+  width: 100%;
+  aspect-ratio: 16/9;
   overflow: hidden;
 }
 
