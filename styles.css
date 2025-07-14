@@ -1,1 +1,86 @@
+:root {
+  --white: #ffffff;
+  --graphite: #2E2E2E;
+  --green: #1AA44A;
+}
 
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--white);
+  color: var(--graphite);
+}
+
+/* Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  z-index: 100;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: var(--graphite);
+  font-weight: 600;
+}
+
+.whatsapp {
+  color: var(--green);
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 40px;
+  background-color: var(--white);
+  gap: 40px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 8px;
+}
+
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 12px 28px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
