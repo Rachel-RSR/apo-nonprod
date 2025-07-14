@@ -53,7 +53,8 @@ body {
 /* === Hero Section === */
 .hero {
   position: relative;
-  height: 65vh;
+  height: auto;
+  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -65,10 +66,10 @@ body {
 }
 
 .hero-image img {
-  width: 98%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 95% center; 
+  width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  object-position: center center; 
 }
 
 /* Apply fade overlay to create contrast and blend */
