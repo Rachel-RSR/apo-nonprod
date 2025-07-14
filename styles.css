@@ -62,7 +62,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width
+  width: 100;
 }
 
 .hero-image img {
