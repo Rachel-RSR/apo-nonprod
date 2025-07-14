@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 24px 40px;
   background-color: var(--white);
   position: sticky;
   top: 0;
@@ -25,9 +25,10 @@ body {
 }
 
 .logo img {
-  max-height: 50px;
+  max-height: 80px;
   height: auto;
   width: auto; 
+  display: block;
 }
 
 .nav-links {
@@ -64,10 +65,10 @@ body {
 }
 
 .hero-image img {
-  width: 130%;
+  width: 140%;
   height: 100%;
   object-fit: cover;
-  object-position: 70% center; /* Position bottle toward the right */
+  object-position: 85% center; /* Position bottle toward the right */
 }
 
 /* Apply fade overlay to create contrast and blend */
