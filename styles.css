@@ -88,9 +88,14 @@ body {
 }
 
 .hero-text {
+  position: absolute;            /* ← This line is missing */
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
   max-width: 600px;
   color: var(--graphite);
   background-color: rgba(255, 0, 0, 0.1); /* Light red for testing */
+  z-index: 10;
 }
 
 .hero-text h1 {
