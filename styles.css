@@ -65,8 +65,8 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: right center; /* Shift bottle to the right */
-  mask-image: linear-gradient(to right, white 20%, transparent 65%);
-  -webkit-mask-image: linear-gradient(to right, white 20%, transparent 65%);
+  mask-image: linear-gradient(to right, white 0%, white 20%, transparent 65%);
+  -webkit-mask-image: linear-gradient(to right, white 0%, white 20%, transparent 65%);
 }
 
 .hero-overlay {
