@@ -68,7 +68,7 @@ body {
   width: 120%;
   height: 100%;
   object-fit: cover;
-  object-position: 100% center; /* Position bottle toward the right */
+  object-position: right center; /* Position bottle toward the right */
 }
 
 /* Apply fade overlay to create contrast and blend */
