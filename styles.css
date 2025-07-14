@@ -2,6 +2,7 @@
   --white: #ffffff;
   --graphite: #2E2E2E;
   --green: #1AA44A;
+  --green-dark: #158c3f
 }
 
 body {
@@ -108,5 +109,5 @@ body {
 }
 
 .btn:hover {
-  background-color: #158c3f;
+  background-color: var(--green-dark);
 }
