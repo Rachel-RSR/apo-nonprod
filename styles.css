@@ -65,10 +65,10 @@ body {
 }
 
 .hero-image img {
-  width: 100%;
+  width: 120%;
   height: 100%;
   object-fit: cover;
-  object-position: 100% right; /* Position bottle toward the right */
+  object-position: 100% center; /* Position bottle toward the right */
 }
 
 /* Apply fade overlay to create contrast and blend */
