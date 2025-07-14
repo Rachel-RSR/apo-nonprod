@@ -53,7 +53,7 @@ body {
 /* === Hero Section === */
 .hero {
   position: relative;
-  height: 60vh;
+  height: 65vh;
   overflow: hidden;
 }
 
@@ -65,10 +65,10 @@ body {
 }
 
 .hero-image img {
-  width: 105%;
+  width: 102%;
   height: 100%;
   object-fit: cover;
-  object-position: 100% center; 
+  object-position: 98% center; 
 }
 
 /* Apply fade overlay to create contrast and blend */
@@ -84,7 +84,7 @@ body {
   padding-left: 80px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background: linear-gradient(to right, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.75) 10%, rgba(255,255,255,0) 35%);
+  background: linear-gradient(to right, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 8%, rgba(255,255,255,0) 28%);
 }
 
 .hero-text {
