@@ -65,10 +65,10 @@ body {
 }
 
 .hero-image img {
-  width: 100%;
+  width: 110%;
   height: 100%;
   object-fit: cover;
-  object-position: 95% center; /* Position bottle toward the right */
+  object-position: 100% center; 
 }
 
 /* Apply fade overlay to create contrast and blend */
@@ -82,7 +82,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding-left: 80px;
-  background: linear-gradient(to right, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.85) 18%, rgba(255,255,255,0) 50%);
+  background: linear-gradient(to right, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.85) 14%, rgba(255,255,255,0) 45%);
 }
 
 .hero-text {
