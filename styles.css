@@ -65,10 +65,10 @@ body {
 }
 
 .hero-image img {
-  width: 102%;
+  width: 98%;
   height: 100%;
   object-fit: cover;
-  object-position: 98% center; 
+  object-position: 95% center; 
 }
 
 /* Apply fade overlay to create contrast and blend */
