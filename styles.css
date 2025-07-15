@@ -53,7 +53,9 @@ body {
 
 /* === Hero Section === */
 .hero {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: auto;
   min-height: 75vh;
   overflow: hidden;
@@ -61,13 +63,15 @@ body {
 
 .hero-image {
   position: relative;
+  height: 100%;
   z-index: 1;
 }
 
 .hero-image img {
   width: 100%;
   height: auto;
-  object-fit: contain;
+  max-height: 100%;
+  object-fit: cover;
   object-position: center;
   display: block;
 }
@@ -90,7 +94,7 @@ body {
 }
 
 .hero-text {
-  position: absolute;            /* ← This line is missing */
+  position: absolute;            
   top: 50%;
   left: 40px;
   transform: translateY(-50%);
@@ -135,5 +139,14 @@ body {
   .btn {
     padding: 10px 20px;
     font-size: 0.9rem;
+  }
+  .hero-image img {
+    object-fit: contain;
+    height: auto;
+  }
+
+  .hero {
+    height: auto;
+    min-height: 60vh;
   }
 }
