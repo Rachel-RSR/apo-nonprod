@@ -94,10 +94,10 @@ body {
 }
 
 .hero-text {
-  position: absolute;            
-  top: 50%;
-  left: 40px;
-  transform: translateY(-50%);
+  position: relative;
+  transform: none;
+  top: auto;
+  left: auto;
   max-width: 600px;
   color: var(--graphite);
   z-index: 10;
